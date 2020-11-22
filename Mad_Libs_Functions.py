@@ -14,22 +14,26 @@ def person():
     per = input("\nEnter a Persons Name: ")
     return per
     
-
 def pluralNoun():
     plur = input("\nEnter a Plural Noun: ")
     return plur
-
 
 def shapes():
     shape = input("\nEnter a plural form of Shapes: ")
     return shape
 
-
 def food():
     food = input("\nEnter a Food: ")
     return food
 
-
 def numbers():
     num = input("\nEnter a Number: ")
     return num
+
+def presentVerb():
+    verb = input("\nEnter a Plural Verb: ")
+    return verb
+
+def pluralBody():
+    pb = input("\nEnter a Plural Body Part: ")
+    return pb
